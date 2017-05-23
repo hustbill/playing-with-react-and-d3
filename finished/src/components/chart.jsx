@@ -4,8 +4,8 @@ import * as actionCreators  from '../lib/action-creators';
 import Matrix               from './matrix';
 
 const styles = {
-  width   : 500,
-  height  : 300,
+  width   : 800,
+  height  : 600,
   padding : 30,
 };
 
