@@ -1,7 +1,7 @@
 import React                from 'react';
 import {connect}            from 'react-redux';
 import * as actionCreators  from '../lib/action-creators';
-import ScatterPlot          from './scatter-plot';
+import Matrix               from './matrix';
 
 const styles = {
   width   : 500,
@@ -12,7 +12,7 @@ const styles = {
 const Chart = (props) => {
   return <div>
     <h1>Playing With React and D3</h1>
-    <ScatterPlot {...props} {...styles} />
+    <Matrix {...props} {...styles} />
     <div className="controls">
       <button className="btn randomize" onClick={() => props.randomizeData()}>
         Randomize Data

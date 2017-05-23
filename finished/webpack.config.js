@@ -58,4 +58,3 @@ if (TARGET === 'start' || !TARGET) {
     ]
   })
 }
-
